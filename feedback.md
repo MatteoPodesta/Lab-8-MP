@@ -2,6 +2,7 @@
 *  **feedback.md is for instructor use only. DO NOT change the feedback.md**; make a copy if needed
 * class definition style & standards:  first, member vars  none per line and do not forget to initialize them;  second functions: separate group of functions  by a blank line; either matching setter/getter pairs or list all setters back to back and list all getters back to back; start with a default c’tor, followed by  copy c’tor (if any), then other c’tors in the order of increased number of arguments, d’tor- right after c’tor(s), overloaded functions- list them back to back in the order of increased number of arguments;  all accessor/getter functions should be const; all functions with more than one statement should be normal (defined externally, outside of the class and below main()), no inline functions with more than one statement; initialize all member variables to appropriate default values at the time of definition; all member variables must be private; classes must provide a strong exception guarantee; must have default c’tor; implement Rule of Three when necessary
 * Class Fraction architecture/logic/design does not comply with the assignment -10
+* no test runs -10
 * class Fraction does not provide a strong exception guarantee -10
 * missing FractionException class -10
 *  function definition(s) above main() -10
