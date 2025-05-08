@@ -6,6 +6,7 @@
 * missing FractionException class -10
 *  function definition(s) above main() -10
 * inline functions do not adhere to the best practices -5
+* if a user enters a value of a wrong data type, the program goes into an infinite loop; should create a highly reusable function that takes an error message string as a parameter, clears the failed input and outputs the error message to be called in the default case of the menu switch -5
 * multiple return statements in a non-recursive function; may result in unreachable return; use if/else, use a variable to store the results and return the variable; e.g. a function to check the length of a string, function to validate account number,  short validations can be done in the return statement; e.g.  return a<MIN_LENGTH; -5
 *  op ==: convoluted, redundant logic; see below -5
 ```text
